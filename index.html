@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quantico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Code Pro">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("t6U1AC1FUfZWwTHj-");
+        })();
+    </script>
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <div class="topmost">
+        <header class="header">
+            <a href="#" class="logo">DevFolio</a>
+            
+            <nav class="navbar">
+              <a href="#Contact" class="cus">Contact Us</a>
+            </nav>
+          </header>
+    </div>
+    <div class="container">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            
+        </div>
+
+        <!-- Form Div -->
+        <div class="formD">
+            <div class="formCont">
+                <h2>Welcome To <span>DevFolio</span>!</h2>
+                <br>
+                <h3>&lt; Get your official Developer ID &gt;</Get></h3>
+                <br>
+                <form onsubmit="emailsend();reset; return false;">
+                    <h2>Let's get started</h2>
+                    <div class="inputbox"><i class='bx bx-ghost'></i><input id="name" type="text" name="name" required>
+                        <label>Full Name</label>
+                    </div>
+                    <div class="inputbox"><i class='bx bxl-gmail'></i><input id="mail" type="email" name="mail" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="inputbox" ><i class='bx bxl-github' ></i><input id="github" type="text" name="github" required>
+                        <label>GitHub Id</label>
+                    </div>
+                    <div class="inputbox"><i class='bx bxs-hide' ></i><input id="password" type="password" required>
+                         <label>Create Password</label> 
+                    </div>
+                    <div class="inputbox"><i class='bx bxs-hide' ></i><input type="password" required>
+                        <label>Confirm Password</label> 
+                   </div>
+                    <button onclick="sendMail()" type="submit">Create Account</button>
+                    <div class="register">
+                        <p>Already have an ID ? <a href="#">View Portfolio</a></p>
+                    </div>
+                    <div class="tnc">
+                        By creating an account you agree to and accept the our terms and conditions. The account is liable to be temporary or permanently deleted if misused or if it is found that the details provided by you is false.
+                    </div>
+                </form>
+
+                <div class="footer-txt">
+                        <p>Copyright &copy; 2023 by Atharva | All Rights Reserved.</p>
+                </div>
+
+            </div>
+                
+        </div>
+        
+    </div>   
+</body>
+</html>
